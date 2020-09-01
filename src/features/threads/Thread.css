@@ -1,0 +1,14 @@
+.thread-card {
+    padding: .75rem 1rem;
+    margin-bottom: .25rem;
+    cursor: pointer;
+}
+
+.thread-card_selected {
+    background-color: var(--color-accent);
+}
+
+.thread-card:not(.thread-card_selected):hover {
+    color: var(--color-accent);
+    background-color: var(--color-neutral-dark);
+}
